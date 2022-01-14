@@ -1,0 +1,9 @@
+---
+ - hosts: prod
+   tasks:
+   - name: create users 
+     user:
+       name: kkesha-user
+       state: present 
+
+
