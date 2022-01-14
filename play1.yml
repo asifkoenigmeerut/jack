@@ -6,4 +6,7 @@
        name: kkesha-user
        state: present 
 
-
+   - name: install vsftpd
+     yum:
+       name: vsftpd
+       state: present 
